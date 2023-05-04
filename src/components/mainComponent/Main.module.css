@@ -2,6 +2,15 @@
     width: 100%;
 }
 
-.hero {
+.hero__imgOverlay {
     text-align: center;
+    color: blue;
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+
+
