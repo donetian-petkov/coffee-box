@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 export const Footer = () => {
 
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar variant="light" style={{background: '#E0DAB8'}}>
             <Container>
                 <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                 <Nav className="me-auto">
