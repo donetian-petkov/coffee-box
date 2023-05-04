@@ -1,0 +1,8 @@
+.sidebar {
+    display: flex;
+}
+
+.sidebar__logo {
+    width: 150px;
+    height: 100px;
+}
