@@ -9,11 +9,14 @@ export const Main = () => {
         <Card>
             <Card.Img src={hero_new} alt="Card image"/>
             <Card.ImgOverlay className={styles.hero__imgOverlay}>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in
-                    to additional content. This content is a little bit longer.
+                <Card.Title className={styles.hero__title}>Coffee Box</Card.Title>
+                <Card.Text className={styles.hero__subs}>
+                    Екзотичен вкус
                 </Card.Text>
+                <Card.Text className={styles.hero__subs}>
+                    Специално подбран за теб
+                </Card.Text>
+                
             </Card.ImgOverlay>
         </Card>
     )
